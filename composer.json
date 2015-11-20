@@ -1,0 +1,12 @@
+{
+    "name": "attibee/bumble",
+    "description": "Attibee Bumble Library for PHP",
+    "type": "library",
+    "keywords": [
+        "library",
+        "attibee",
+		"bumble"
+    ],
+    "homepage": "http://bumble.attibee.com",
+    "license": "Apache 2.0"
+}
