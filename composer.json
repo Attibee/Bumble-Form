@@ -1,11 +1,11 @@
 {
-    "name": "attibee/bumble",
-    "description": "Attibee Bumble Library for PHP",
-    "type": "library",
+    "name": "attibee/bumble/database",
+    "description": "Attibee Bumble database package",
     "keywords": [
         "library",
         "attibee",
-		"bumble"
+		"bumble",
+		"database"
     ],
     "homepage": "http://bumble.attibee.com",
     "license": "Apache 2.0"
