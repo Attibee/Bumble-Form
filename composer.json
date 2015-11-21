@@ -13,7 +13,6 @@
 		"database"
     ],
 	"version": "1.0-dev",
-    "type": "package",
 	"minimum-stability": "dev",
 	"autoload": {
         "psr-4": {
