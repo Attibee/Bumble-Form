@@ -4,7 +4,7 @@
 	"version": "1.0-dev",
 	"autoload": {
         "psr-4": {
-            "Attibee\\Database": "src/"
+            "Attibee\\Database\\": "src/"
         }
     },
 	"support": {
