@@ -10,7 +10,7 @@
 	"keywords": [
         "attibee",
 		"bumble",
-		"database"
+		"form"
     ],
 	"version": "1.0-dev",
 	"minimum-stability": "dev",
@@ -20,6 +20,6 @@
         }
     },
     "suggest": {
-        "bumble\validation": "Works with package bumble/form to validate form data."
+        "bumble\\validation": "Works with package bumble/form to validate form data."
     }
 }
