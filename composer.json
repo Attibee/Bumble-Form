@@ -2,7 +2,6 @@
     "name": "bumble/database",
     "description": "Attibee Bumble database package",
 	"version": "1.0-dev",
-	"target-dir": "Attibee/Bumble/Database",
 	"autoload": {
         "psr-4": {
             "Attibee\\Database\\": "src/"
