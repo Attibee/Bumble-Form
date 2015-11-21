@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Sql\Operator\Exception;
+namespace Bumble\Database\Sql\Operator\Exception;
 
 /**
  * Thrown when an invalid operator is provided.

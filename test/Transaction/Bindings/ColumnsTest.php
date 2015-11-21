@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction\Binding;
+namespace Bumble\Database\Transaction\Binding;
 
 class ColumnsTest extends \PHPUnit_Framework_TestCase {
     public function testCreation() {

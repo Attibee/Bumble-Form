@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction\Binding;
+namespace Bumble\Database\Transaction\Binding;
 
 /**
  * Binds an integer to the LIMIT clause of an SQL transaction.

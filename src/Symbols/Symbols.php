@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Symbols;
+namespace Bumble\Database\Symbols;
 
 /**
  * Contains ANSI compatible symbols.

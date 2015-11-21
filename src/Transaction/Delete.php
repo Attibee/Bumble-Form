@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction;
+namespace Bumble\Database\Transaction;
 
 /**
  * Delete a database record.

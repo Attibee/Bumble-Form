@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction\Binding;
+namespace Bumble\Database\Transaction\Binding;
 
 /**
  * Binds a map of column to value to an UPDATE's SET statement.

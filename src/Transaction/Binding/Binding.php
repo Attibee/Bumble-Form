@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction\Binding;
+namespace Bumble\Database\Transaction\Binding;
 
-use Attibee\Database\Symbols\SymbolAwareAbstract;
+use Bumble\Database\Symbols\SymbolAwareAbstract;
 
 /**
  * A configurable object that is bound to a SQL statement.

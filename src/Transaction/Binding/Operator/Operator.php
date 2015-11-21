@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction\Binding\Operator;
+namespace Bumble\Database\Transaction\Binding\Operator;
 
-use \Attibee\Database\Transaction\Binding\Binding;
+use \Bumble\Database\Transaction\Binding\Binding;
 
 /**
  * Base operator extended by all operators.

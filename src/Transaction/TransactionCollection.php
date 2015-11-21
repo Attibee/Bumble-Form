@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction;
+namespace Bumble\Database\Transaction;
 
-use Attibee\Database\Symbols\SymbolAwareAbstract;
+use Bumble\Database\Symbols\SymbolAwareAbstract;
 
 /**
  * A transaction provides a configurable interface to perform commons transactions on a
@@ -54,7 +54,7 @@ class TransactionCollection extends SymbolAwareAbstract {
     /**
      * Returns the transaction object given the string name.
      * @param string $name The name of the transaction.
-     * @return \Attibee\Database\Transaction\BaseTransaction The transaction object.
+     * @return \Bumble\Database\Transaction\BaseTransaction The transaction object.
      */
     protected function getTransaction( $name ) {
         $transaction = null;
@@ -86,7 +86,7 @@ class TransactionCollection extends SymbolAwareAbstract {
      * 
      * @param string $name The name of the transaction.
 
-     * @return Attibee\Database\Transaction\Transaction The transaction.
+     * @return Bumble\Database\Transaction\Transaction The transaction.
      * 
      * @throws \Exception If the transaction $name does not exist.
      */

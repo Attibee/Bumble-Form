@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction;
+namespace Bumble\Database\Transaction;
 
 /**
  * The Select method describes a SQL SELECT query. The GET method should primarily be used

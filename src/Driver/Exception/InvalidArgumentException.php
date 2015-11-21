@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Exception;
+namespace Bumble\Database\Exception;
 
 /**
  * Thrown when an invalid argument is provided to a driver.

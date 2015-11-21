@@ -16,9 +16,9 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction;
+namespace Bumble\Database\Transaction;
 
-use \Attibee\Database\Symbols\SymbolAwareAbstract;
+use \Bumble\Database\Symbols\SymbolAwareAbstract;
 
 /**
  * A database transaction provides an interface for configurable SQL statements. For example,

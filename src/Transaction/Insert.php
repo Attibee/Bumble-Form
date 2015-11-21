@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction;
+namespace Bumble\Database\Transaction;
 
 /**
  * Add a new record to a database.

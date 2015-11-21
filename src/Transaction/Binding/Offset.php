@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction\Binding;
+namespace Bumble\Database\Transaction\Binding;
 
 /**
  * Binds an integer to the OFFSET statement of a SQL transaction.

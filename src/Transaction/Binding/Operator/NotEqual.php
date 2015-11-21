@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction\Binding\Operator;
+namespace Bumble\Database\Transaction\Binding\Operator;
 
 /**
  * Operator for SQL not equal.

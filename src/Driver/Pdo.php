@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database;
+namespace Bumble\Database;
 
 class Pdo extends BaseDriver {
     private $driver;

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Symbols;
+namespace Bumble\Database\Symbols;
 
 /**
  * Contains symbols that are unique to MySQL.

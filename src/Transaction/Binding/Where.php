@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction\Binding;
+namespace Bumble\Database\Transaction\Binding;
 
-use Attibee\Database\Transaction\Binding\Operator\OperatorSet;
+use Bumble\Database\Transaction\Binding\Operator\OperatorSet;
 
 /**
  * Binds operators to a WHERE statement.

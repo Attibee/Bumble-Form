@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database;
+namespace Bumble\Database;
 
 /**
  * Provides a base class for all drivers to implement.

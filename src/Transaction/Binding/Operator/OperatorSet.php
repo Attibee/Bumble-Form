@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Attibee\Database\Transaction\Binding\Operator;
+namespace Bumble\Database\Transaction\Binding\Operator;
 
-use Attibee\Database\Transaction\Binding\Operator\Exception\InvalidOperatorException;
+use Bumble\Database\Transaction\Binding\Operator\Exception\InvalidOperatorException;
 
 /**
  * An operator set allows the creation of a set of operators separated by AND or OR
@@ -94,7 +94,7 @@ class OperatorSet extends Operator {
      * boolean operators are prepended to the operator, so the first operator's boolean is
      * ignored.
      * 
-     * @param \Attibee\Database\Operator\Operator $op The operator to add.
+     * @param \Bumble\Database\Operator\Operator $op The operator to add.
      * @param string $boolean The type of boolean separator.
      */
     public function addOperator( Operator $op, $boolean = self::OPERATOR_AND ) {
@@ -131,7 +131,7 @@ class OperatorSet extends Operator {
      * 
      * @param string $name The name of the operator.
      * 
-     * @return \Attibee\Database\Sql\Where Returns the where statement to allow chaining.
+     * @return \Bumble\Database\Sql\Where Returns the where statement to allow chaining.
      * 
      * @throws Operator\Exception\InvalidOperatorException Thrown if an invalid operator is provided.
      */
