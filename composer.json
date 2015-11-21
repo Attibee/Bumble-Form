@@ -1,6 +1,7 @@
 {
     "name": "attibee/bumble-database",
     "description": "Attibee Bumble database package",
+	"version": "1.1-dev",
 	"support": {
         "email": "a@attibee.com",
         "irc": "irc://irc.freenode.org/attibee-bumble"
