@@ -1,7 +1,10 @@
 {
     "name": "bumble/database",
     "description": "Attibee Bumble database package",
-	"version": "1.0-dev",
+	"homepage": "http://bumble.attibee.com",
+    "license": "Apache-2.0"
+	"version": "1.1-dev",
+	"type": "bumble-package",
 	"autoload": {
         "psr-4": {
             "Attibee\\Database\\": "src/"
@@ -17,6 +20,5 @@
 		"bumble",
 		"database"
     ],
-    "homepage": "http://bumble.attibee.com",
-    "license": "Apache-2.0"
+
 }
