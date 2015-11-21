@@ -1,13 +1,13 @@
 {
-    "name": "bumble/database",
-    "description": "Attibee Bumble database package",
+    "name": "bumble/form",
+    "description": "Provides an interface to create, autofill, and validate forms easily.",
 	"homepage": "http://bumble.attibee.com",
     "license": "Apache-2.0",
 	"version": "1.0-dev",
 	"minimum-stability": "dev",
 	"autoload": {
         "psr-4": {
-            "Attibee\\Database\\": "src/"
+            "Bumble\\Form\\": "src/"
         }
     },
 	"support": {
@@ -15,9 +15,8 @@
         "irc": "irc://irc.freenode.org/attibee-bumble"
     },
     "keywords": [
-        "library",
         "attibee",
 		"bumble",
-		"database"
+		"form"
     ]
 }
