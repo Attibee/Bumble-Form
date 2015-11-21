@@ -1,8 +1,7 @@
 <?php
 
-/* 
- * Copyright 2015 Attibee (http://attibee.com)
-
+/* Copyright 2015 Attibee (http://attibee.com)
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -16,25 +15,18 @@
  * limitations under the License.
  */
 
-namespace Bumble\Database\Symbols;
+namespace Bumble\Form\Decorator;
 
-/**
- * Contains ANSI compatible symbols.
- */
-class Symbols {
-    protected $SELECT = 'SELECT';
-    protected $FROM = 'FROM';
-    protected $WHERE = 'WHERE';
-    protected $JOIN = 'JOIN';
-    protected $IDENTIFIER_QUOTE = '"';
-    protected $STRING_QUOTE = '\'';
-    protected $STAR = '*';
-    
-    public function __get( $name ) {
-        if( property_exists( $this, $name ) ) {
-            return $this->$name;
+class StandardDecorator extends Decorator {
+    public function form( $form ) {
+        return "<div class=\"form-wrapper\">$form</div>";
+    }
+	
+    public function element( $element, $title ) {
+        if( $title ) {
+            return "<label>$title: $element</label><br />";
         } else {
-            throw new \Exception('Symbols \'$name\' does not exist.');
+            return "<label>$element</label><br />";
         }
     }
 }

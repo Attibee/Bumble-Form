@@ -1,8 +1,7 @@
 <?php
 
-/* 
- * Copyright 2015 Attibee (http://attibee.com)
-
+/* Copyright 2015 Attibee (http://attibee.com)
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -16,13 +15,20 @@
  * limitations under the License.
  */
 
-namespace Bumble\Database\Transaction;
+namespace Bumble\Form\Element;
 
 /**
- * Add a new record to a database.
+ * A form element.
  */
-class Insert extends Transaction {
-    protected $bindings = array(
-        self::VALUES
-    );
+class Form extends Element {
+    protected $name = 'form';
+    protected $isShortTag = false;
+
+    public function __construct() {
+        //add the attributes
+        $this->addValidAttributes(array(
+            'method',
+            'action'
+        ));
+    }
 }

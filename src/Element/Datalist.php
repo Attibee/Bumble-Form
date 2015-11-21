@@ -1,8 +1,7 @@
 <?php
 
-/* 
- * Copyright 2015 Attibee (http://attibee.com)
-
+/* Copyright 2015 Attibee (http://attibee.com)
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -16,19 +15,8 @@
  * limitations under the License.
  */
 
-namespace Bumble\Database\Transaction;
+namespace Bumble\Form\Element;
 
-/**
- * The Select method describes a SQL SELECT query. The GET method should primarily be used
- * for getting data from a table.
- * 
- * The Select transaction uses the {where} and {column} bindings.
- */
-class Select extends Transaction {
-    protected $bindings = array(
-        self::WHERE,
-        self::COLUMNS,
-        self::LIMIT,
-        self::OFFSET
-    );
+class Datalist extends Select {
+	protected $name = 'datalist';
 }
