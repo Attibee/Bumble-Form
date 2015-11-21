@@ -1,6 +1,10 @@
 {
     "name": "attibee/bumble-database",
     "description": "Attibee Bumble database package",
+	"support": {
+        "email": "a@attibee.com",
+        "irc": "irc://irc.freenode.org/attibee-bumble"
+    },
     "keywords": [
         "library",
         "attibee",
@@ -8,5 +12,5 @@
 		"database"
     ],
     "homepage": "http://bumble.attibee.com",
-    "license": "Apache 2.0"
+    "license": "Apache-2.0"
 }
