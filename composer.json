@@ -20,6 +20,6 @@
         }
     },
     "suggest": {
-        "bumble\\validation": "Works with package bumble/form to validate form data."
+        "bumble/validation": "Works with package bumble/form to validate form data."
     }
 }
