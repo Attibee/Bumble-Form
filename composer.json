@@ -5,6 +5,7 @@
     "license": "Apache-2.0"
 	"version": "1.1-dev",
 	"type": "bumble-package",
+	"minimum-stability": "dev",
 	"autoload": {
         "psr-4": {
             "Attibee\\Database\\": "src/"
@@ -20,5 +21,7 @@
 		"bumble",
 		"database"
     ],
-
+	"require": {
+		"bumble/installer": "*"
+	}
 }
