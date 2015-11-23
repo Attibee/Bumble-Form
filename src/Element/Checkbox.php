@@ -18,12 +18,12 @@
 namespace Bumble\Form\Element;
 
 class Checkbox extends Input {
-	function __construct() {
-		parent::__construct();
-				
-		//add checked as a valid attribute
-		$this->addValidAttribute( 'checked' );
-		
-		$this->setAttribute( 'type', 'checkbox' ); //type to checkbox
-	}
+    function __construct() {
+        parent::__construct();
+                
+        //add checked as a valid attribute
+        $this->addValidAttribute( 'checked' );
+        
+        $this->setAttribute( 'type', 'checkbox' ); //type to checkbox
+    }
 }

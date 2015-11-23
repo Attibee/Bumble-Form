@@ -18,5 +18,5 @@
 namespace Bumble\Form\Element;
 
 class Datalist extends Select {
-	protected $name = 'datalist';
+    protected $name = 'datalist';
 }

@@ -21,7 +21,7 @@ class StandardDecorator extends Decorator {
     public function form( $form ) {
         return "<div class=\"form-wrapper\">$form</div>";
     }
-	
+    
     public function element( $element, $title ) {
         if( $title ) {
             return "<label>$title: $element</label><br />";
